@@ -6,10 +6,12 @@ function getSum( a,b )
         return a
     }
   
-    if( a < b) {
+    if(a < b) {
       for(let i = a; i <= b; i++) {
         result += i;
-    }} else if (a > b) {
+    }
+        } 
+    else if (a > b) {
       for (let i = b; i <= a; i++) {
         result += i;
       }
