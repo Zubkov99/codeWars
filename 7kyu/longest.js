@@ -1,15 +1,12 @@
 function longest(s1, s2) {
-   let result =  [...new Set(s1+s2)].sort().join('');
-
-return result    
-    
+   return Array.from(new Set(s1 + s2)).sort().join('');
 }
 
 
 let a = "xyaabbbccccdefwew"
 let b = "xxxxyyyyabklmopq"
 
-longest(a, b);
+console.log(longest(a, b));
 
 
 
