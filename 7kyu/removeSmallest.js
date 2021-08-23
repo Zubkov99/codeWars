@@ -5,10 +5,13 @@ function removeSmallest(numbers) {
     result.splice(numbers.indexOf(min),1);
     
     return result
+
+
   }
 
 
   let arr = [5,3,2,1,1,4]
+
   console.log(removeSmallest(arr));
 
 
