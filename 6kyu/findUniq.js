@@ -18,6 +18,8 @@ function findUniq(arr) {
 
   }
 
+  console.log(findUniq([100,100,100,150]));
+  
 
 
 
