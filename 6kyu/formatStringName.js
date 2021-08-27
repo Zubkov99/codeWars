@@ -14,16 +14,4 @@ function list(names) {
     return arr.join(', ');
 }
 
-
-
-
-console.log(list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ]));
-
 list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])
-
-
-
-// console.log(list([ {name: 'Bart'} ]));
-
-// console.log(list([]));
-
