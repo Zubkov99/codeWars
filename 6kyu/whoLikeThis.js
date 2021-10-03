@@ -39,13 +39,3 @@ function likes(names) {
 }
 
 console.log(likes(["Alex", "Jacob", "Mark", "Max"]));
-
-
-
-
-
-
-
-
-
-// likes(['Dima', 'Nik', 'Stiv'])
